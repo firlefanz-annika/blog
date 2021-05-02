@@ -34,6 +34,9 @@ const Homepage = ({ posts }: PostsProps) => {
   return (
     <Layout>
       <h1 sx={visuallyHidden}>{siteTitle}</h1>
+      <div>
+        <img alt="Banner" sx={{ maxWidth: '100%', maxHeight: '100%' }} src={replaceSlashes(`/${basePath}/banner.jpg`)} />
+      </div>
       <section sx={{ mb: [3, 4, 5], p: { fontSize: [1, 2, 3], mt: 2 }, variant: `section_hero` }}>
         <Hero />
       </section>
