@@ -8,8 +8,8 @@ module.exports = {
   siteMetadata: {
     siteTitle: `Firlefanz Annika`,
     siteTitleAlt: `Firlefanz Annika`,
-    siteHeadline: `Minimal Blog - Gatsby Theme from @lekoarts`,
-    siteDescription: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and line highlighting.`,
+    siteHeadline: `Firlefanz Annika - Ein Blog zum Verlieben`,
+    siteDescription: `Firlefanz Annika - Ein Blog zum Verlieben`,
     siteLanguage: `de`,
     siteImage: `/banner.jpg`,
     author: `@annika_hart`
