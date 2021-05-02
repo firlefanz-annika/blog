@@ -11,6 +11,7 @@ module.exports = {
     siteTitleAlt: `Firlefanz Annika`,
     siteHeadline: `Firlefanz Annika - Ein Blog zum Verlieben`,
     siteDescription: `Firlefanz Annika - Ein Blog zum Verlieben`,
+    siteUrl: `https://firlefanz-annika.github.io/blog`,
     siteLanguage: `de`,
     siteImage: `/banner.jpg`,
     author: `@annika_hart`
