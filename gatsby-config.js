@@ -20,10 +20,11 @@ module.exports = {
       resolve: `@lekoarts/gatsby-theme-minimal-blog`,
       // See the theme's README for all available options
       options: {
+        blogPath: `blog-posts`,
         navigation: [
           {
             title: `Blog`,
-            slug: `/blog`,
+            slug: `/blog-posts`,
           },
         ],
         externalLinks: [
