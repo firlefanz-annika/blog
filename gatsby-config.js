@@ -5,13 +5,12 @@ require(`dotenv`).config({
 const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
 module.exports = {
-  pathPrefix: "/blog",
   siteMetadata: {
     siteTitle: `Firlefanz Annika`,
     siteTitleAlt: `Firlefanz Annika`,
     siteHeadline: `Firlefanz Annika - Ein Blog zum Verlieben`,
     siteDescription: `Firlefanz Annika - Ein Blog zum Verlieben`,
-    siteUrl: `https://firlefanz-annika.github.io/blog`,
+    siteUrl: `https://firlefanzblog.de`,
     siteLanguage: `de`,
     siteImage: `/banner.jpg`,
     author: `@annika_hart`
@@ -21,11 +20,11 @@ module.exports = {
       resolve: `@lekoarts/gatsby-theme-minimal-blog`,
       // See the theme's README for all available options
       options: {
-        blogPath: `blog-posts`,
+        blogPath: `blog`,
         navigation: [
           {
             title: `Blog`,
-            slug: `/blog-posts`,
+            slug: `/blog`,
           },
         ],
         externalLinks: [
