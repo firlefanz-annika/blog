@@ -50,8 +50,8 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Firlefanz Blog`,
-        short_name: `firlefanz-blog`,
-        description: `Annika is doof.`,
+        short_name: `Firlefanz Blog`,
+        description: `Firlefanz Annika - Ein Blog zum Verlieben`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#6B46C1`,
